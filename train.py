@@ -166,8 +166,8 @@ checkpoint = {
     'optimizer_state_dict': optimizer.state_dict(),
 }
 
-checkpoint_path = 'checkpoint.pth'
+# Save the checkpoint in the right directory
+checkpoint_path = os.path.join(checkpoint_dir, 'checkpoint.pth')
 torch.save(checkpoint, checkpoint_path)
 print(f"Checkpoint saved to {checkpoint_path}")
-
 
