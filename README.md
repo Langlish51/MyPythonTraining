@@ -12,4 +12,5 @@ Franck Tujek - 19/02/2024
 - The "predict.py" is a Python script used for making predictions with a pre-trained flower classification model. It takes an input image and a pre-trained model checkpoint as arguments and returns the top K most likely classes along with their probabilities. Users can customize the prediction process using image path, checkpoint, top K number and different mapping for categories to name
 - In addition, the full dataset is provided split in 3 folders (train, valid and test) and the cat_to-name file. Some more pictures of flower that were used for sanity check are also provided
 
-
+**Impportant Notes for user:**
+This is a beginner code that should be optimised. It was created as part of an intensive course. Given more time, user should break down the code into smaller functions and check for unecessary steps. 
